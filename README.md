@@ -1,13 +1,13 @@
 
 
-```markdown
+
 # Configuración personalizada de Windows Terminal
 
 Este repositorio contiene mi configuración personalizada para Windows Terminal. Aquí puedes encontrar los ajustes y esquemas de colores que utilizo para mejorar mi experiencia con Windows Terminal.
 
 ## Capturas de pantalla
 
-![Windows Terminal](./screenshots/windows-terminal.png)
+![Windows Terminal](windows-terminal.png)
 
 ## Requisitos
 
@@ -36,7 +36,7 @@ Para mantener esta configuración como predeterminada al iniciar Windows Termina
 
 2. Asegúrate de que esta configuración esté seleccionada como la configuración predeterminada en el archivo `settings.json`.
 
-```json
+```
 "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}"
 ```
 
@@ -101,4 +101,4 @@ Disfruta de tu experiencia mejorada con Windows Terminal!
 
 ```
 
-Este README.md ahora incluye información sobre cómo mantener la configuración predeterminada y cómo configurar íconos y temas usando Oh My Posh. Asegúrate de personalizarlo aún más según tus necesidades y preferencias. ¡Espero que esto te ayude a compartir tu configuración de Windows Terminal de manera más completa!
+Este README.md incluye información sobre cómo mantener la configuración predeterminada y cómo configurar íconos y temas usando Oh My Posh. Asegúrate de personalizarlo aún más según tus necesidades y preferencias. ¡Espero que esto te ayude a compartir tu configuración de Windows Terminal de manera más completa!

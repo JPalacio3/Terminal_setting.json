@@ -1,4 +1,4 @@
-Entendido, agregaré información sobre la configuración de íconos, temas y comandos, así como cómo mantener los cambios predeterminados al iniciar. A continuación, se presenta el README.md actualizado:
+
 
 ```markdown
 # Configuración personalizada de Windows Terminal

@@ -99,6 +99,5 @@ Si tienes alguna pregunta o comentario sobre esta configuración, no dudes en po
 
 Disfruta de tu experiencia mejorada con Windows Terminal!
 
-```
 
 Este README.md incluye información sobre cómo mantener la configuración predeterminada y cómo configurar íconos y temas usando Oh My Posh. Asegúrate de personalizarlo aún más según tus necesidades y preferencias. ¡Espero que esto te ayude a compartir tu configuración de Windows Terminal de manera más completa!

@@ -94,16 +94,15 @@ Esta configuración utiliza el esquema de íconos "Oh My Posh" y un tema especí
 - `Ctrl + Shift + F`: Buscar en la terminal.
 
 ## Configuración de los íconos
-// Configurar iconos
+- -> Configurar iconos
 `Install-Module -Name Terminal-Icons -Repository PSGallery` 
 `Import-module Terminal-Icons` 
 
 ## Configuración del perfil predeterminado
-- // Configurar un nuevo perfil para guardar las configuraciones de inicio:
+- -> Configurar un nuevo perfil para guardar las configuraciones de inicio:
   
 `New-Item -Path $PROFILE -Type File -Force`
-
-- `notepad $PROFILE`
+`notepad $PROFILE`
 
 - -> se escribe el siguiente código para configurar los valores predeterminados de la  aplicación:
 

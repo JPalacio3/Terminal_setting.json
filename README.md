@@ -95,21 +95,22 @@ Esta configuración utiliza el esquema de íconos "Oh My Posh" y un tema especí
 
 ## Configuración de los íconos
 // Configurar iconos
-Install-Module -Name Terminal-Icons -Repository PSGallery
-Import-module Terminal-Icons
+`Install-Module -Name Terminal-Icons -Repository PSGallery` 
+`Import-module Terminal-Icons` 
 
 ## Configuración del perfil predeterminado
-// Configurar un nuevo perfil para guardar las configuraciones de inicio
-New-Item -Path $PROFILE -Type File -Force
+- // Configurar un nuevo perfil para guardar las configuraciones de inicio:
+  
+`New-Item -Path $PROFILE -Type File -Force`
 
-notepad $PROFILE
+- `notepad $PROFILE`
 
--> se escribe el siguiente código para configurar los valores predeterminados de la aplicación:
-(@(& 'C:/Users/JPalacio/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\JPalacio\AppData\Local\Programs\oh-my-posh\themes\aliens.omp.json' --print) -join "`n") | Invoke-Expression
+- -> se escribe el siguiente código para configurar los valores predeterminados de la  aplicación:
+
+`(@(& 'C:/Users/JPalacio/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\JPalacio\AppData\Local\Programs\oh-my-posh\themes\aliens.omp.json' --print) -join "`n") | Invoke-Expression `
 
 
 ## Contacto
-
 
 Si tienes alguna pregunta o comentario sobre esta configuración, no dudes en ponerte en contacto conmigo.
 

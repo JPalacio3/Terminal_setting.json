@@ -106,7 +106,9 @@ Esta configuración utiliza el esquema de íconos "Oh My Posh" y un tema especí
 
 - -> se escribe el siguiente código para configurar los valores predeterminados de la  aplicación:
 
-`(@(& 'C:/Users/JPalacio/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\JPalacio\AppData\Local\Programs\oh-my-posh\themes\aliens.omp.json' --print) -join "`n") | Invoke-Expression `
+(@(& 'C:/Users/NOCDC/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\NOCDC\AppData\Local\Programs\oh-my-posh\themes\powerlevel10k_lean.omp.json' --print) -join "`n") | Invoke-Expression
+Import-Module Terminal-Icons
+Set-PSReadLineOption -PredictionViewStyle ListView
 
 
 ## Contacto
